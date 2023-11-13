@@ -1,0 +1,15 @@
+body {
+    overflow: hidden; /* This prevents the video from showing outside the body */
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1; /* This places the video behind other elements */
+}
